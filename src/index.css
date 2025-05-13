@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-inter text-gray-800 bg-gray-50;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-montserrat font-semibold;
+  }
+}
+
+@layer components {
+  .container-padding {
+    @apply px-4 md:px-8 lg:px-12 xl:px-24;
+  }
+  
+  .section-padding {
+    @apply py-12 md:py-16 lg:py-20;
+  }
+  
+  .page-title {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold text-padang-blue-800;
+  }
+  
+  .section-title {
+    @apply text-2xl md:text-3xl font-semibold mb-6 text-padang-blue-700;
+  }
+  
+  .section-subtitle {
+    @apply text-lg text-gray-600 mb-8 max-w-3xl;
+  }
+  
+  .btn {
+    @apply px-6 py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105;
+  }
+  
+  .btn-primary {
+    @apply bg-padang-blue-600 text-white hover:bg-padang-blue-700;
+  }
+  
+  .btn-secondary {
+    @apply bg-padang-green-600 text-white hover:bg-padang-green-700;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-padang-blue-600 text-padang-blue-600 hover:bg-padang-blue-50;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg;
+  }
+  
+  .nav-link {
+    @apply text-gray-700 hover:text-padang-blue-600 font-medium transition-colors duration-300;
+  }
+  
+  .nav-link-active {
+    @apply text-padang-blue-600 font-semibold;
+  }
+}
+
+/* Animation classes */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+.slide-up {
+  animation: slideUp 0.5s ease-in-out forwards;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.hero-parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
