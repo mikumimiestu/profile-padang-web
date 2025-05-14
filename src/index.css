@@ -96,3 +96,24 @@
 .text-shadow {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
+
+/* Add to your global CSS */
+.font-minang {
+  font-family: 'Poppins', sans-serif; /* Or use a more decorative font if available */
+}
+
+.bg-padang-blue-800 {
+  background-color: #1e3a8a;
+}
+
+/* Custom animation for cultural elements */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

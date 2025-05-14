@@ -34,7 +34,6 @@ const Navbar = () => {
     { title: 'Culinary', path: '/culinary' },
     { title: 'Events', path: '/events' },
     { title: 'Gallery', path: '/gallery' },
-    { title: 'Contact', path: '/contact' },
   ];
 
   const tourismSubmenu = [
@@ -52,7 +51,7 @@ const Navbar = () => {
     >
       <div className="container-padding mx-auto flex justify-between items-center">
         <Link to="/" className="flex items-center gap-2">
-          <span className={`text-2xl font-bold font-montserrat ${isScrolled ? 'text-padang-blue-700' : 'text-white text-shadow'}`}>
+          <span className={`text-2xl font-bold font-montserrat ${isScrolled ? 'text-padang-blue-700' : 'text-padang-blue-400'}`}>
             KOTA PADANG
           </span>
         </Link>
@@ -64,7 +63,7 @@ const Navbar = () => {
               {item.hasSubmenu ? (
                 <button 
                   className={`flex items-center gap-1 ${
-                    isScrolled ? 'nav-link' : 'text-white hover:text-white/80'
+                    isScrolled ? 'nav-link' : 'text-black hover:text-black/80'
                   }`}
                   onClick={() => setIsTourismOpen(!isTourismOpen)}
                 >
@@ -77,7 +76,7 @@ const Navbar = () => {
                   className={({ isActive }) => `
                     ${isScrolled 
                       ? (isActive ? 'nav-link-active' : 'nav-link') 
-                      : (isActive ? 'text-white font-semibold' : 'text-white hover:text-white/80')
+                      : (isActive ? 'text-black font-semibold' : 'text-black hover:text-black/80')
                     }
                   `}
                 >
@@ -112,9 +111,9 @@ const Navbar = () => {
           aria-label="Toggle Menu"
         >
           {isOpen ? (
-            <X className={isScrolled ? 'text-gray-700' : 'text-white'} size={24} />
+            <X className={isScrolled ? 'text-gray-700' : 'text-black'} size={24} />
           ) : (
-            <Menu className={isScrolled ? 'text-gray-700' : 'text-white'} size={24} />
+            <Menu className={isScrolled ? 'text-gray-700' : 'text-black'} size={24} />
           )}
         </button>
       </div>
