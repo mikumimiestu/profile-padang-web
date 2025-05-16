@@ -11,35 +11,35 @@ const Culinary = () => {
   const popularFoods = [
     {
       name: "Rendang",
-      description: "Daging dimasak perlahan dengan santan dan rempah hingga kering dan harum",
+      description: "Rendang adalah masakan khas Minangkabau berbahan daging sapi yang dimasak lama dengan santan dan rempah. Rasanya kaya, gurih, dan pedas. Selain lezat, rendang juga punya makna budaya dan diakui sebagai salah satu makanan terenak di dunia.",
       origin: "Warisan Budaya UNESCO",
       level: "Pedas sedang",
       cookTime: "4-6 jam",
-      image: "https://images.pexels.com/photos/7259904/pexels-photo-7259904.jpeg"
+      image: "https://wallpapercave.com/wp/wp12249939.jpg"
     },
     {
       name: "Sate Padang",
-      description: "Sate daging dengan bumbu kuah kuning kental dari tepung beras dan rempah",
+      description: "Sate Padang adalah makanan khas Minangkabau yang terbuat dari daging sapi atau jeroan, dibakar lalu disajikan dengan kuah kental berbumbu rempah. Kuahnya yang khas, berwarna kuning atau kemerahan, punya rasa gurih dan pedas. Hidangan ini biasanya disajikan dengan lontong dan bawang goreng.",
       origin: "Khas Kota Padang",
       level: "Pedas",
       cookTime: "2-3 jam",
-      image: "https://images.pexels.com/photos/1391487/pexels-photo-1391487.jpeg"
+      image: "https://static.republika.co.id/uploads/images/inpicture_slide/0.30070000-1569219527-sate-padang-_161205102003-966.jpeg"
     },
     {
       name: "Dendeng Balado",
-      description: "Daging sapi tipis dikeringkan lalu digoreng dan ditumis dengan sambal balado",
+      description: "Dendeng balado adalah masakan khas Minangkabau yang terbuat dari irisan tipis daging sapi yang digoreng hingga kering, lalu disajikan dengan sambal cabai merah yang pedas dan sedikit asam. Sambalnya dibuat dari cabai merah, bawang merah, dan perasan jeruk nipis.",
       origin: "Sumatera Barat",
       level: "Sangat pedas",
       cookTime: "1-2 hari",
-      image: "https://images.pexels.com/photos/12737656/pexels-photo-12737656.jpeg"
+      image: "https://img.okezone.com/content/2021/02/26/301/2368632/dendeng-balado-pedesnya-nampol-banget-begini-resep-dan-cara-bikinnya-5k5eIj1HVT.jpg"
     },
     {
       name: "Gulai Ikan",
-      description: "Ikan laut segar dimasak dengan kuah gulai kuning khas Minang",
+      description: "Gulai ikan Padang adalah masakan khas Minangkabau yang menggunakan ikan sebagai bahan utama, biasanya ikan kakap atau tongkol. Ikan dimasak dalam kuah santan yang kaya rempah seperti kunyit, jahe, lengkuas, serai, dan cabai, sehingga menghasilkan rasa yang gurih, pedas, dan aromatik.",
       origin: "Pesisir Sumatera",
       level: "Sedang",
       cookTime: "30-45 menit",
-      image: "https://images.pexels.com/photos/1343505/pexels-photo-1343505.jpeg"
+      image: "https://i.ytimg.com/vi/brPejxUYW54/maxresdefault.jpg"
     }
   ];
 
@@ -79,7 +79,7 @@ const Culinary = () => {
       <section className="relative bg-amber-700 py-24 px-4 overflow-hidden">
         <div className="absolute inset-0 opacity-20 bg-black">
           <img 
-            src="https://images.pexels.com/photos/1391487/pexels-photo-1391487.jpeg" 
+            src="https://th.bing.com/th/id/OIP.i7go3HB5rVStOk5_YSLyVAHaE8?pid=ImgDet&w=178&h=118&c=7&dpr=1,5" 
             alt="Kuliner Padang" 
             className="w-full h-full object-cover"
           />
@@ -195,12 +195,12 @@ const Culinary = () => {
             </div>
             <div className="relative h-full min-h-[300px] rounded-xl overflow-hidden shadow-lg">
               <img 
-                src="https://images.pexels.com/photos/12737656/pexels-photo-12737656.jpeg" 
+                src="https://myweekendplan.asia/wp-content/uploads/2021/04/Beef-Rendang-Recipe.jpg" 
                 alt="Proses Memasak Padang"
                 className="w-full h-full object-cover absolute inset-0"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent flex items-end p-6">
-                <p className="text-white/90">Proses memasak tradisional dengan bumbu rempah lengkap</p>
+                <p className="text-white/90"></p>
               </div>
             </div>
           </div>
@@ -262,7 +262,7 @@ const Culinary = () => {
             </div>
             <div className="bg-gray-100 min-h-[400px] lg:min-h-full">
               <img 
-                src="https://images.pexels.com/photos/7259904/pexels-photo-7259904.jpeg" 
+                src="https://radarlampung.disway.id/upload/878b953ed26b0ce64cfa0b7ca53217a6.jpg" 
                 alt="Rumah Makan Padang"
                 className="w-full h-full object-cover"
               />
