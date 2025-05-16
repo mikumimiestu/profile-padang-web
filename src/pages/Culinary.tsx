@@ -44,10 +44,10 @@ const Culinary = () => {
   ];
 
   const foodCategories = [
-    { name: "Masakan Berkuah", count: 12, icon: "🍜" },
-    { name: "Olahan Daging", count: 8, icon: "🍖" },
+    { name: "Masakan Berkuah", count: 20, icon: "🍜" },
+    { name: "Olahan Daging", count: 13, icon: "🍖" },
     { name: "Masakan Pedas", count: 15, icon: "🌶️" },
-    { name: "Jajanan Tradisional", count: 5, icon: "🍡" }
+    { name: "Jajanan Tradisional", count: 10, icon: "🍡" }
   ];
 
   const restaurants = [
