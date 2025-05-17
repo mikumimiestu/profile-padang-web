@@ -56,7 +56,7 @@ const AboutPreview = () => {
           >
             <div className="space-y-4">
               <img 
-                src="https://images.pexels.com/photos/2474689/pexels-photo-2474689.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                src="https://asset-2.tstatic.net/tribunpekanbarutravel/foto/bank/images/Kawasan-Pantai-Padang-Sumbar.jpg" 
                 alt="Pantai Padang" 
                 className="w-full h-40 object-cover rounded-lg shadow-md"
               />
