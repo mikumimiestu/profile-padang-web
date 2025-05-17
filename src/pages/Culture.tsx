@@ -233,23 +233,20 @@ const Culture = () => {
                 ))}
               </div>
             </div>
-            <div className="grid grid-cols-2 gap-4">
-              {[1,2,3,4].map((i) => (
-                <motion.div
-                  key={i}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: i * 0.1 }}
-                  viewport={{ once: true }}
-                  className={`rounded-xl overflow-hidden shadow-md ${i === 1 ? 'row-span-2' : ''}`}
-                >
-                  <img 
-                    src={`https://images.pexels.com/photos/${7259904 + i}/pexels-photo-${7259904 + i}.jpeg`} 
-                    alt={`Masakan Padang ${i}`}
-                    className="w-full h-full object-cover"
-                  />
-                </motion.div>
-              ))}
+            <div className="grid grid-cols-1 gap-4">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+                viewport={{ once: true }}
+                className="rounded-xl overflow-hidden shadow-md"
+              >
+              <img 
+                src="https://rajominang.id/blog/uploads/images/202411/image_750x_673845a9ab39c.jpg"
+                alt="Masakan Padang"
+                className="w-full h-full object-cover"
+              />
+              </motion.div>
             </div>
           </div>
         </div>
