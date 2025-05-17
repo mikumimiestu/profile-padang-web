@@ -14,25 +14,25 @@ const Culture = () => {
       icon: <Utensils className="w-8 h-8" />,
       title: "Kuliner Legendaris",
       description: "Rendang, Sate Padang, Gulai Itiak, dan berbagai masakan Minang yang mendunia",
-      image: "https://images.pexels.com/photos/7259904/pexels-photo-7259904.jpeg"
+      image: "https://wallpapercave.com/wp/wp12249939.jpg"
     },
     {
       icon: <Landmark className="w-8 h-8" />,
       title: "Rumah Gadang",
       description: "Arsitektur tradisional dengan atap gonjong yang ikonik",
-      image: "https://images.pexels.com/photos/111287/pexels-photo-111287.jpeg"
+      image: "https://www.ruparupa.com/blog/wp-content/uploads/2022/02/keunikan-rumah-gadang.jpeg"
     },
     {
       icon: <Users className="w-8 h-8" />,
       title: "Sistem Matrilineal",
       description: "Warisan dan garis keturunan mengikuti pihak ibu",
-      image: "https://images.pexels.com/photos/5384445/pexels-photo-5384445.jpeg"
+      image: "https://packagepadang.com/wp-content/uploads/2024/08/Sejarah-dari-sistem-matrilineal-di-Minangkabau.jpg"
     },
     {
       icon: <Music className="w-8 h-8" />,
       title: "Seni Tradisional",
       description: "Tari Piring, Saluang, Randai, dan berbagai kesenian Minang",
-      image: "https://images.pexels.com/photos/995743/pexels-photo-995743.jpeg"
+      image: "https://cnc-magazine.oramiland.com/parenting/images/Keunikan_Tari_Piring.width-800.format-webp.webp"
     }
   ];
 
@@ -40,17 +40,17 @@ const Culture = () => {
     {
       name: "Museum Adityawarman",
       description: "Museum budaya Minangkabau dengan koleksi benda-benda bersejarah",
-      image: "https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg"
+      image: "https://mediaim.expedia.com/destination/2/3f791ed326b568ed634be5be05cffe75.jpg"
     },
     {
       name: "Pantai Padang",
       description: "Tempat wisata ikonik dengan sunset terindah dan jejak sejarah kolonial",
-      image: "https://images.pexels.com/photos/15371815/pexels-photo-15371815.jpeg"
+      image: "https://cdn0-production-images-kly.akamaized.net/JThT4hKPJiwFCNh0qDAcWJ6_4vs=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2762292/original/046020400_1553671627-pantai-padang.jpg"
     },
     {
       name: "Masjid Raya Sumatera Barat",
       description: "Masjid megah dengan arsitektur perpaduan modern dan tradisional Minang",
-      image: "https://images.pexels.com/photos/302769/pexels-photo-302769.jpeg"
+      image: "https://ik.imagekit.io/tvlk/blog/2024/07/shutterstock_2367961491.jpg?tr=q-70,c-at_max,w-500,h-300,dpr-2"
     }
   ];
 
@@ -60,7 +60,7 @@ const Culture = () => {
       <section className="relative bg-padang-blue-800 py-24 px-4 overflow-hidden">
         <div className="absolute inset-0 opacity-30 bg-black">
           <img 
-            src="https://images.pexels.com/photos/995743/pexels-photo-995743.jpeg" 
+            src="https://radarmukomuko.disway.id/upload/08577a1f68ed7fb6bd8089b8a0271c4e.jpg" 
             alt="Tari Piring Padang" 
             className="w-full h-full object-cover"
           />
@@ -163,7 +163,7 @@ const Culture = () => {
             </div>
             <div className="order-1 lg:order-2">
               <img 
-                src="https://images.pexels.com/photos/111287/pexels-photo-111287.jpeg" 
+                src="https://asset.kompas.com/crops/IU5Fr9hycf0_vV0LlrfVi80dk1s=/21x7:963x635/1200x800/data/photo/2021/09/01/612f052b1aae1.jpg" 
                 alt="Rumah Gadang"
                 className="w-full h-full object-cover min-h-[400px]"
               />
