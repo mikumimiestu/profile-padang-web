@@ -21,7 +21,7 @@ const Gallery = () => {
       likes: 1250,
       views: 5600,
       photographer: "Budi Santoso",
-      image: "/api/placeholder/600/400"
+      image: "https://img.okezone.com/content/2022/09/13/408/2666735/10-wisata-pantai-cantik-di-padang-pesonanya-bikin-jatuh-cinta-KsUSeHL3WX.jpg"
     },
     {
       id: 2,
@@ -32,7 +32,7 @@ const Gallery = () => {
       likes: 980,
       views: 4300,
       photographer: "Rina Putri",
-      image: "/api/placeholder/600/400"
+      image: "https://rentalmobilpadang.co.id/wp-content/uploads/2019/12/Jembatan-Siti-Nurbaya-1.jpg"
     },
     {
       id: 3,
@@ -44,7 +44,7 @@ const Gallery = () => {
       views: 6200,
       featured: true,
       photographer: "Deni Kurniawan",
-      image: "/api/placeholder/600/400"
+      image: "https://images.bisnis.com/upload/img/a%20Lifestyle%20:)/bukit_nobita.jpg"
     },
     {
       id: 4,
@@ -55,7 +55,7 @@ const Gallery = () => {
       likes: 1670,
       views: 7800,
       photographer: "Siti Rahma",
-      image: "/api/placeholder/600/400"
+      image: "https://i.pinimg.com/originals/ad/cb/90/adcb90989579a59c3c4d83fa937201d9.jpg"
     },
     {
       id: 5,
@@ -67,7 +67,7 @@ const Gallery = () => {
       views: 9400,
       featured: true,
       photographer: "Ahmad Fadli",
-      image: "/api/placeholder/600/400"
+      image: "https://i.pinimg.com/originals/32/a8/ed/32a8ed7b77cf6f7000cdf962aa22f03a.jpg"
     },
     {
       id: 6,
@@ -78,7 +78,7 @@ const Gallery = () => {
       likes: 1560,
       views: 6700,
       photographer: "Lisa Paramita",
-      image: "/api/placeholder/600/400"
+      image: "https://th.bing.com/th/id/OIP.cgLYYw4Th8gHlVB6cHMOWwHaE7?cb=iwc2&rs=1&pid=ImgDetMain"
     },
     {
       id: 7,
@@ -89,7 +89,7 @@ const Gallery = () => {
       likes: 870,
       views: 3900,
       photographer: "Fajar Pratama",
-      image: "/api/placeholder/600/400"
+      image: "https://th.bing.com/th/id/OIP.B3hMbw_CgiQ-_s3ptFAs0QHaE1?cb=iwc2&rs=1&pid=ImgDetMain"
     },
     {
       id: 8,
@@ -101,7 +101,7 @@ const Gallery = () => {
       views: 10200,
       featured: true,
       photographer: "Indah Permata",
-      image: "/api/placeholder/600/400"
+      image: "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/07/13044906/resep-rendang-daging-khas-padang-yang-sehat-dan-menggugah-selera.jpg"
     }
   ];
 
@@ -126,7 +126,7 @@ const Gallery = () => {
       <section className="relative bg-blue-700 py-24 px-4 overflow-hidden">
         <div className="absolute inset-0 opacity-20 bg-black">
           <img 
-            src="/api/placeholder/1200/600" 
+            src="https://superlive.id/storage/articles/mobile/mobile_d6ab157f-c152-456b-bdbb-641664dd869f.jpg" 
             alt="Gallery Kota Padang" 
             className="w-full h-full object-cover"
           />
@@ -328,7 +328,7 @@ const Gallery = () => {
             </div>
             <div className="relative h-full min-h-[300px] rounded-xl overflow-hidden shadow-lg">
               <img 
-                src="/api/placeholder/600/400" 
+                src="https://cdn.idntimes.com/content-images/community/2017/09/sunset-pantai-air-manis-03429c1daca7867db07e79f87767932b.jpg" 
                 alt="Fotografi Pantai Padang"
                 className="w-full h-full object-cover absolute inset-0"
               />
@@ -347,10 +347,10 @@ const Gallery = () => {
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              { name: "Budi Santoso", specialty: "Landscape", photos: 120, followers: "10K+", image: "/api/placeholder/150/150" },
-              { name: "Rina Putri", specialty: "Street", photos: 85, followers: "8.5K+", image: "/api/placeholder/150/150" },
-              { name: "Ahmad Fadli", specialty: "Architecture", photos: 96, followers: "12K+", image: "/api/placeholder/150/150" },
-              { name: "Siti Rahma", specialty: "Culture", photos: 110, followers: "9K+", image: "/api/placeholder/150/150" }
+              { name: "Budi Santoso", specialty: "Landscape", photos: 120, followers: "10K+", image: "https://media.istockphoto.com/id/1182717077/photo/real-malaysian-man-with-happy-expression-looking-at-camera.jpg?s=612x612&w=0&k=20&c=GV2QVwjqFvuRZYnzhkQdsLUwOIzvvRZH_BwGkOt3YdI=" },
+              { name: "Rina Putri", specialty: "Street", photos: 85, followers: "8.5K+", image: "https://th.bing.com/th/id/OIP.DWDpRDVdBzQJ2Hs5NzMlEwHaLH?cb=iwc2&rs=1&pid=ImgDetMain" },
+              { name: "Ahmad Fadli", specialty: "Architecture", photos: 96, followers: "12K+", image: "https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1634025439/01hzwawwhzh8t2z7rayfc7agyy.jpg" },
+              { name: "Siti Rahma", specialty: "Culture", photos: 110, followers: "9K+", image: "https://cdn.pixabay.com/photo/2024/02/18/09/00/ai-generated-8580798_1280.jpg" }
             ].map((photographer, index) => (
               <motion.div
                 key={index}
